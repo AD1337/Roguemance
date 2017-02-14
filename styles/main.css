@@ -3,8 +3,8 @@ p,small a{color:#7c9aae}.col-4:after,.col-4:before,.row:after,.row:before{conten
 body{margin:0;background:url(../roguemance/RoguemanceThumb011.jpg) no-repeat fixed #3A3530;background-size:cover;background-position: top center;
 font-family:'Arial', sans-serif;font-size:16px}small{padding-bottom:1em}.row{width:100%;margin:3em 0}
 .row:after{clear:both}.col-4{float:left;clear:none;width:30%;margin-left:10%;margin-right:10%}.col-4 p span,
-.content .screenshots img,.header img{display:block}.col-4:after{clear:both}.col-4:last-child{margin-right:10px}.col-4 img{margin:0 auto}.col-4 p{margin:1em auto; margin-left:2em}
-.col-4 p span{font-size:4em;font-family: 'Arial', sans-serif; color:white;  letter-spacing: 3px; margin-bottom:8px; margin:auto}
+.content .screenshots img{width:100%},.header img{display:block}.col-4:after{clear:both}.col-4:last-child{margin-right:10px}.col-4 img{margin:0 auto}.col-4 p{margin:0em auto; margin-left:1em; margin-right:1em}
+.col-4 p span{font-size:4em;font-family: 'Arial', sans-serif; color:white;  letter-spacing: 3px; margin-bottom:8px; margin:auto}.fit { height:100%; width:auto; }
 
 
 .container{margin:auto; margin-top:40%}.header{box-sizing:border-box;
@@ -133,4 +133,10 @@ a.item:hover {
   content: '';
   width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block;
+}
+
+
+html, body {
+overflow-x: hidden;
+    max-width: 100%;
 }
