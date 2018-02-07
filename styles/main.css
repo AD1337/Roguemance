@@ -1,3 +1,8 @@
+p,small a{color:#ff0537}.buy-on-steam,.buy-on-steam:hover,small a{text-decoration:none}.content,.header{text-align:center}body{margin:0;background:url(../images/bg.jpg) center top no-repeat fixed #3A3530;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px}small{padding-bottom:1em}.buy-on-steam{background:#ff0537;padding:20px 25px;font-family:Helvetica,Arial,sans-serif;color:#fff;margin:auto}.buy-on-steam:hover{background:#ba0025}
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
+
 p,small a{color:#7c9aae}.col-4:after,.col-4:before,.row:after,.row:before{content:'';display:table}.buy-on-steam,.buy-on-steam:hover,small a{text-decoration:none}.col-4,.content,
 .header{text-align:center}
 body{margin:0;background:url(../roguemance/RoguemanceThumb011.jpg) no-repeat fixed #3A3530;background-size:cover;background-position: top center;
