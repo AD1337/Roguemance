@@ -3,6 +3,26 @@ p,small a{color:#ff0537}.buy-on-steam,.buy-on-steam:hover,small a{text-decoratio
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
 
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-big {
+	max-width:640px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 p,small a{color:#7c9aae}.col-4:after,.col-4:before,.row:after,.row:before{content:'';display:table}.buy-on-steam,.buy-on-steam:hover,small a{text-decoration:none}.col-4,.content,
 .header{text-align:center}
 body{margin:0;background:url(../roguemance/RoguemanceThumb011.jpg) no-repeat fixed #3A3530;background-size:cover;background-position: top center;
